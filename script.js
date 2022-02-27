@@ -26,7 +26,7 @@ for (let i = 0; i < inputs.length; i++) {
                 break;
         }
 
-        if(celciusInput.value === '' || fahrenheitInput.value === '' || kelvinInput.value === ''){
+        if (celciusInput.value === '' || fahrenheitInput.value === '' || kelvinInput.value === '') {
             kelvinInput.value = '';
             fahrenheitInput.value = '';
             celciusInput.value = '';
