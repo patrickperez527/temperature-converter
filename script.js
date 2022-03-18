@@ -33,9 +33,3 @@ for (let i = 0; i < inputs.length; i++) {
         }
     });
 }
-
-reset.addEventListener('click', () => {
-    celciusInput.value = '';
-    fahrenheitInput.value = '';
-    kelvinInput.value = '';
-})
